@@ -11,7 +11,7 @@
             <span v-if="!playingStatus" style="font-size:18px;">开始对比</span>
             <span v-if="playingStatus" style="font-size:18px;">停止对比</span>
             </Button>
-            <span style="font-size:30px; margin-bottom: 10px; position: absolute; top: 125px; left: 540px;">缺陷内容</span>
+            <span style="font-size:30px; margin-bottom: 10px; position: absolute; top: 10rem; left: 45rem;">缺陷内容</span>
             <Table 
             class="qx_table"
             :columns="columns" 
@@ -24,16 +24,16 @@
             ></Table>
         </div>
         <div v-dragscroll class="imgs1">
-            <div>
+            <!-- <div>
                 <div v-lazy-container="{ selector: 'img' }" style="display: inline-block" v-for="img in orign_images" :key="img">
                     <img class="dmp" :data-src="'http://192.168.190.88:7002/' + img">
                 </div>
-            </div>
-            <!-- <div>
+            </div> -->
+            <div>
                 <div style="display: inline-block" v-for="img in ims_small" :key="img">
                     <img class="dmp" :src="img">
                 </div>
-            </div> -->
+            </div>
         </div>
     </div>
     

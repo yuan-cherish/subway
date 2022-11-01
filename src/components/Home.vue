@@ -32,10 +32,10 @@
                             <span class="layout-text">检测记录</span>
                         </template>
                         <MenuItem name="/index3/detection" to="/detection">
-                            <span style="font-size: 16px;">检测页面</span>
+                            <span style="font-size: 16px;">2D检测</span>
                         </MenuItem>
-                        <MenuItem name="/index3/mainline" to="/mainline">
-                            <span style="font-size: 16px;">正线检测</span>
+                        <MenuItem name="/index3/3Ddetection" to="/3Ddetection">
+                            <span style="font-size: 16px;">3D检测</span>
                         </MenuItem>
                     </Submenu>
                     <Submenu name="/index4">
@@ -155,7 +155,6 @@ export default {
     }
     .layout-content{
         // position: fixed;
-        // width: 3000px;
         min-height: 650px;
         margin: 10px;
         overflow: hidden;
@@ -166,6 +165,7 @@ export default {
         // white-space: nowrap;
     }
     .layout-copy{
+        // width: 150px;
         min-height: 100px;
         text-align: center;
         padding: 10px 0 20px;

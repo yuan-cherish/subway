@@ -17,6 +17,7 @@ import progressive from 'progressive-image/dist/vue'; // 渐进式
 import 'progressive-image/dist/index.css';//样式
 import VueDragscroll from 'vue-dragscroll';
 import VueLazyload from "vue-lazyload";
+// import * as THREE from "three";
 
 Vue.use(VueLazyload);
 Vue.use(VueDragscroll)
@@ -24,6 +25,8 @@ Vue.use(progressive, {
     removePreview: true,
     scale: true
 })
+// Vue.use(THREE);
+
 
 Vue.use(Vant);
 Vue.use(Lazyload);

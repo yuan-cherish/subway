@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from "../components/Home.vue"
 import Detection from "../components/detection/detection.vue"
-import MainLine from "../components/detection/mainline.vue"
+import TDdetection from "../components/detection/3Ddetection.vue"
 
 
 Vue.use(VueRouter)
@@ -12,7 +12,7 @@ const routes = [
   { path: '/home', component: Home, 
   children: [
     { path: '/detection', component: Detection},
-    { path: '/mainline', component: MainLine}
+    { path: '/3Ddetection', component: TDdetection}
   ]
 
   },
